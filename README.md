@@ -1,3 +1,38 @@
+# Frontend Application for a Shopping Cart using React 
+## Background: 
+Online  shopping  has  become  an  integral  part  of  modern  retail,  providing  users  with 
+the  convenience  of  browsing  and  purchasing  products  from  the  comfort  of  their 
+homes.  An  efficient  and  user-friendly  frontend  for  an  online  shopping  cart  is  crucial 
+for  delivering  a  seamless  shopping  experience.  React,  a  popular  JavaScript  library, 
+can be employed to create an interactive and responsive interface. 
+## Problem Statement: 
+Your task is to create the frontend of a shopping cart application using React, a 
+JavaScript library for building user interfaces. The application should allow users to 
+explore the available product details, view their details, and make purchases in an 
+intuitive and user-friendly manner. 
+### Requirements: 
+1.  Product Catalogue:  Implement a catalogue of available products with 
+images, names, prices, and other relevant details. 
+2.  Search and Filter:  Provide a search functionality allowing users to search for 
+products by name, category, or any other relevant criteria. 
+3.  Product Details:  Implement a feature that displays  detailed information 
+about each product when clicked, including specifications, customer reviews, 
+and related items. 
+4.  Shopping Cart:  Enable users to add products to a shopping  cart, view the 
+cart contents, and proceed to checkout. Display the selected items with their 
+quantities 
+5.  Signup Form  (Optional)  : Develop a user registration form. Include fields for name, email, password, and confirm password. 
+6.  Responsive Design (Optional) :Ensure that the website is fully responsive, providing an optimal viewing and interaction experience across various devices and screen sizes.
+
+<hr/>
+
+## Team Members 
+
+- [@shamitha2004](https://github.com/shamitha2004) : (4SF22CS185)
+- [@athmikau](https://github.com/athmikau) : (4SF22CS038)
+- 
+<hr/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
