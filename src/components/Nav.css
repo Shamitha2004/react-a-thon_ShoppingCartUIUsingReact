@@ -1,0 +1,50 @@
+.navbar {
+    padding: 1%;
+    color: aliceblue;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .nav-list li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-list li a:hover {
+    color: maroon;
+  }
+  
+  
+.search-bar {
+  display: flex;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 8px 20px;
+  background-color: #a50a0a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #fc1109;
+  transition: .5s;
+}

@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 6vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.header-img{
+  max-width: 55px;
+  padding: 1px;
+  border-radius: 50px;
+  border:1px solid #fff;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+#headings{
+background-color: #e44d26;
+padding: 10px;
+color: aliceblue;
+}
+.cart h2{
+  font-size: 30px; 
+  color: #f9faff;
+  background-color: maroon;
+  margin: 0px;
+  padding: 20px;
+  
+}
+.pcfooter {
+  padding: 10px;
+  text-align: center;
+  background-color: #eee;
+  }
+  
+  
+  footer, footer a{
+  background-color: #882006;
+  color:#fff;
+  max-width: 100%;
+  height: max-content;
+  }
+  #contact h2{
+  text-decoration-line: underline;
+  padding-top: 15px;
+  }
+  #contact{
+  padding-bottom: 20px;
+  }
+
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .back-button {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: #ac2605;
+    border-radius: 50%;
+    border: 1px solid white;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(237, 188, 158),
+                0 0 15px rgba(224, 206, 217, 0.8),
+                0 0 20px rgba(240, 221, 238, 0.6);
+}
+ .back-button a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+ }
